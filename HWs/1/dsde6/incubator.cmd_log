@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 incubator.ngc incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 incubator.ngc incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 incubator.ngc incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 incubator.ngc incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 incubator.ngc incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 incubator.ngc incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
+xst -intstyle ise -ifn "D:/prj/dsd/dsde6/incubator.xst" -ofn "D:/prj/dsd/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 incubator.ngc incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
+xst -intstyle ise -ifn "C:/Users/sa/Desktop/New folder/dsde6-98170668/dsde6/incubator.xst" -ofn "C:/Users/sa/Desktop/New folder/dsde6-98170668/dsde6/incubator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "incubator.ngc" incubator.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o incubator_map.ncd incubator.ngd incubator.pcf 
+par -w -intstyle ise -ol high -mt off incubator_map.ncd incubator.ncd incubator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml incubator.twx incubator.ncd -o incubator.twr incubator.pcf 
